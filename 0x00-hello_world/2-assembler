@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc $CFILE -E -S -o main.s
+gcc -E -S $CFILE > $(echo $CFILE|cut -d"." -f1).s
