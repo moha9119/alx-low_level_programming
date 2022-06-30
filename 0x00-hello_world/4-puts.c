@@ -1,9 +1,8 @@
 #include <stdio.h>
 /**
- * puts.c
- * prints exactly Programming is like building a multilingual puzzle, followed by a new line.
- * You are not allowed to use printf
- * Your program should end with the value 
+ * main - Entry point
+ * prints "\"Programming is like building.."
+ * return 0
  */
 int main(void)
 {
