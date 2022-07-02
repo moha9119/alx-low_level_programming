@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Prints Alphabet
+ * main - print alphabt
  *
- * Description: prints the alphabet in lowercase whitout 'e','q'
+ * Description: program that prints the alphabet in lowercase whitout e and q
  *
  * Return: 0
  */
@@ -12,14 +12,11 @@ int main(void)
 	char a = 'a';
 
 
-	while (a <= 'z')
+	for (a = 'a'; a <= 'z'; a++)
 	{
-		if (a == ord (e) || a == ord (q))
-		{
-			continue;
-		}
-		putchar(a);
-		a++;
+		if (a != 'q' && a != 'e')
+			putchar(a);
+
 	}
 	putchar('\n');
 
