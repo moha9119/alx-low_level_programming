@@ -21,7 +21,7 @@ int main(void)
 		{
 			k = n / 10;
 			l = n % 10;
-			if (num < k || (num == k && chif == l))
+			if (num < k || (num == k && chif < l))
 			{
 				putchar(num + '0');
 				putchar(chif + '0');
@@ -37,7 +37,7 @@ int main(void)
 		}
 	}
 
-	putchar(10);
+	putchar('\n');
 
 
 	return (0);
