@@ -12,7 +12,7 @@
 int main(void)
 {
 	unsigned int i;
-	char aff[8] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
+	char aff[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
 
 	for (i = 0; i < sizeof(aff); i++)
 	{
