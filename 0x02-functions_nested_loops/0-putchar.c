@@ -1,6 +1,7 @@
+#include <stdio.h>
 #include "main.h"
 /**
- * prints
+ * main - _putchar - prints
  *
  * Description: prints _putchar, followed by a new line.
  * You are allowed to use _putchar
