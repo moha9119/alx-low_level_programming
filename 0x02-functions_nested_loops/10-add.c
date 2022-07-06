@@ -12,16 +12,7 @@
  */
 int add(int a, int b)
 {
-	int result;
-
-	if ((a >= 0  && b >= 0) || (a <= 0 && b <= 0) || (a < 0 && b > 0) || (a > 0 && b < 0 ))
-	{
-		result = a + b;
-		return (result);
-	}
-	_putchar(10);
-
-	return (0);
+	return (a + b);
 
 }
 
