@@ -12,19 +12,9 @@
  */
 int print_last_digit(int d)
 {
-	int i = 1;
-
-
-	while (d > 0 || d <= 0)
-	{
-		d = -d;
-		d = d % 10;
-		return (d);
-		_putchar(10);
-		i++;
-	
-	}
+	d = d % 10;
+	_putchar(d);
+	_putchar(10);
 
 	return (0);
-
 }
