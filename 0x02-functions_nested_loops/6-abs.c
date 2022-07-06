@@ -13,11 +13,11 @@
 int _abs(int b)
 {
 
-	if (b >= 48)
+	if (b >= 0)
 	{
 		return (b);
 	}
-	else if (b < 48)
+	else if (b < 0)
 	{
 		return (-b);
 	}
