@@ -24,10 +24,6 @@ int main(void)
 		{
 			printf("Fizz ");
 		}
-		else if (num == 100)
-		{
-			printf("Buzz");
-		}
 		else if (n % 5 == 0 && n % 3 != 0)
 		{
 			printf("Buzz ");
