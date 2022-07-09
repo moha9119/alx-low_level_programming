@@ -12,17 +12,21 @@
  */
 void print_line(int n)
 {
-	if (n > 0)
+	int t;
+
+	for (t = n; t > 0; t--)
 	{
-		_putchar(95);
-	}
-	else if (n <= 0)
-	{
-		_putchar(10);
-	}
-	else
-	{
-		_putchar (10);
+			_putchar(95);
+			continue;
+		if (n <= 0)
+		{
+			_putchar(10);
+			break;
+		}
+		else
+		{
+			_putchar (10);
+		}
 	}
 
 }
