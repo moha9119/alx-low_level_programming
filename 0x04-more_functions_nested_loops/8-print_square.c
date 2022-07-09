@@ -20,11 +20,11 @@ void print_square(int size)
 		{
 			_putchar(35);
 		}
-		_putchar(10);
-		if ( a <= 0 && b <= 0)
+		if (a <= 0 && b <= 0)
 		{
 			_putchar(10);
 		}
+		_putchar(10);
 	}
 	_putchar(10);
 
