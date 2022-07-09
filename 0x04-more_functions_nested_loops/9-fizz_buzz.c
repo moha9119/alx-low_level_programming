@@ -14,7 +14,6 @@ int main(void)
 {
 	int n;
 
-	
 	for (n = 1; n <= 100; n++)
 	{
 		if (n % 3 == 0 && n % 5 == 0)
@@ -29,16 +28,14 @@ int main(void)
 		}
 		else if (n % 3 == 0)
 		{
-			printf ("Fiz");
-			 printf(" ");
+			printf("Fiz");
+			printf(" ");
 		}
 		else
 		{
 			printf("%d", n);
-			printf(" ");
 		}
 	}
-	
 	printf("\n");
 
 	return (0);
