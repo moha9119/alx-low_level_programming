@@ -16,18 +16,13 @@ void print_line(int n)
 
 	for (t = n; t > 0; t--)
 	{
-			_putchar(95);
-			continue;
-		if (n <= 0)
+		_putchar(95);
+		if (t <= 0)
 		{
 			_putchar(10);
-			break;
-		}
-		else
-		{
-			_putchar (10);
 		}
 	}
+	_putchar(10);
 
 }
 
