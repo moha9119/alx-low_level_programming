@@ -6,3 +6,4 @@
 5. A good engineer thinks in reverse and asks himself
 
 8. Arrays are not pointers
+9. strcpy
