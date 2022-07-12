@@ -26,4 +26,5 @@ void rev_string(char *s)
 		a--;
 	}
 	_putchar(10);
+	
 }
