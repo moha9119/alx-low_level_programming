@@ -11,18 +11,22 @@
 
 void rev_string(char *s)
 {
-	int a = 0;
+	int i = 0, max, half;
+	char first, last;
 
 
-	while (s[a] != '\0')
+	while (s[i] != '\0')
 	{
-		a++;
+		i++;
 	}
-	a--;
-
-	while (a >= 0)
+	max = i - 1;
+	half = max / 2;
+	while (half >= 0)
 	{
-		*s = s[a];
-		a--;
-	}	
+		first = s[max - half];
+		last = s[half];
+		s[half] = first;
+		s[max - half] = last;
+		half--;
+	}
 }
