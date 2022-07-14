@@ -30,7 +30,6 @@ char *_strcat(char *dest, char *src)
 		i++;
 		b++;
 	}
-	printf("\n");
 
-	return (0);
+	return (dest);
 }
