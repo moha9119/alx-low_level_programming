@@ -4,7 +4,7 @@
 
 
 /**
- * _strcat - concactenates
+ * _strncat - concactenates
  *
  * @dest: pointer type char
  * @src: pointer type char
