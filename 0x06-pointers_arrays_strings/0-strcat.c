@@ -16,13 +16,13 @@ char *_strcat(char *dest, char *src)
 {
 	int i = 0, b = 0;
 
-	while (dest[i] != '\0')
+	while (*(dest + i) != '\0')
 	{
 		i++;
 	}
 	while (b >= 0)
 	{
-		dest[i] = src[b];
+		*(dest + i) = *(src + b);
 		if (src[b] == '\0')
 		{
 			break;
@@ -30,6 +30,7 @@ char *_strcat(char *dest, char *src)
 		i++;
 		b++;
 	}
+	printf("\n");
 
 	return (0);
 }
