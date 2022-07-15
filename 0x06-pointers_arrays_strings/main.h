@@ -18,4 +18,6 @@ char *cap_string(char *);
 int delimiter(char c);
 int lower(char c);
 char *leet(char *);
+char *rot13(char *);
+
 #endif
