@@ -17,4 +17,5 @@ char *string_toupper(char *);
 char *cap_string(char *);
 int delimiter(char c);
 int lower(char c);
+char *leet(char *);
 #endif
