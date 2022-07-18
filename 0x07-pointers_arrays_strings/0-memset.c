@@ -17,10 +17,6 @@ char *_memset(char *s, char b, unsigned int n)
 
 	for (i = 0; i < n; i++)
 	{
-		if (i % 10 == 0)
-		{
-			_putchar(32);
-		}
 		s[i] = b;
 	}
 
