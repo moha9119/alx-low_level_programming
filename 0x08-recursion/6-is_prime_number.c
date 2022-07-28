@@ -30,9 +30,9 @@ int prime(int n, int i)
 	{
 		return (0);
 	}
-	else if((i * i) > n)
+	else if ((i * i) > n)
 	{
 		return (1);
 	}
-	return(prime(n, i + 1));
+	return (prime(n, i + 1));
 }
