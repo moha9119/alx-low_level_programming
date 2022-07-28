@@ -3,11 +3,11 @@
 #include <stdlib.h>
 
 /**
- * _print_rev_recursion - prints reverse string
- * @s: The caracter to print
+ * _print_rev_recursion - string reverse
+ * @s: the Character to print
  *
  * Return: on success 1
-*/
+ */
 
 void _print_rev_recursion(char *s)
 {
@@ -16,9 +16,4 @@ void _print_rev_recursion(char *s)
 		_print_rev_recursion(s + 1);
 		_putchar(*s);
 	}
-	else
-	{
-		_putchar('\n');
-	}
-	
 }
