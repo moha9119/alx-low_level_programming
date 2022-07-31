@@ -27,17 +27,14 @@ char *_strdup(char *str)
 	{
 		i++;
 	}
+	if (b == NULL)
+	{
+		return (0);
+	}
 
 	for (c = 0; c < i; c++)
 	{
-		if (b != NULL)
-		{
-			*(b + c) = *(str + c);
-		}
-		else
-		{
-			return (NULL);
-		}
+		*(b + c) = *(str + c);
 	}
 	b[c] = '\0';
 	return (b);
