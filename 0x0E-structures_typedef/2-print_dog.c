@@ -5,28 +5,24 @@
 
 /**
  * print_dog - print element dog
- * @d= pointer to print
+ * @d: pointer to print
  *
- * Return: element dog
+ * Return: nothing
  */
 
 void print_dog(struct dog *d)
 {
 	if (d == NULL)
 	{
-		d = malloc(sizeof(struct dog));
 		return;
+	}
+	if (d->owner == NULL)
+	{
+		printf("Name: %s\nAge: %f\nOwner: nil\n", d->name, d->age);
 	}
 	if (d->name == NULL)
 	{
-		printf("Name : nil\nAge: %f\nOwner: %s\n", d->age, d->owner);
+		printf("Name: nil\nAge: %f\nOwner: %s\n", d->age, d->owner);
 	}
-	if (d != NULL)
-	{
-		 printf("Name : %s\n Age: %f\n Owner: %s\n", d->name, d->age, d->owner);
-	}
-	else
-	{
-		printf("\n");
-	}
+	printf("Name: %s\nAge: %f\nOwner: %s\n", d->name, d->age, d->owner);
 }
